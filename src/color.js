@@ -25,10 +25,8 @@ function purple(str){
 	return consoleColor(str,36);
 }
 
-export {
-	green,
-	yellow,
-	red,
-	blue,
-	purple
-}
+exports.green = green;
+exports.yellow = yellow;
+exports.red = red;
+exports.blue = blue;
+exports.purple = purple;
