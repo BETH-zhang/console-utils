@@ -2,7 +2,7 @@ function consoleColor(str,num){
 	if (!num) {
 		num = '32';
 	}
-	return "\\033[" + num +"m" + str + "\\033[0m"
+	return "\u001b[" + num + "m" + str + "\u001b[0m";
 }
 
 function green(str){
